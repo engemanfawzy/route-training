@@ -1,0 +1,232 @@
+body
+{
+	   font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+/*---------------------*/
+
+.navbar-brand {
+    color: #fed136 !important;
+    font-size:28px;
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.navbar-nav .nav-item .nav-link {
+   font-size:14px;
+    font-weight: 500;
+    padding: 1.1em 1em!important;
+    color: #fff !important;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #fed136 !important;
+	transition: all .4s;
+}
+#home
+{
+	height: 680px;
+	background-image: url(../img/header-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.home-contact h1
+{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;		
+}
+.home-contact btn
+{
+	    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*------------------------------------*/
+.Advisors
+{
+	font-family: 'Poppins', sans-serif;
+}
+.Advisors .Advisors-item
+{
+	position: relative;
+	 font-family: "segoe ui light";
+	overflow: hidden;
+}
+.Advisors-item .caption1
+{
+	background-color: rgba(0, 33, 71, 0.7);
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	left: 5%;
+	top: -100%;	
+	transition: all .7s;
+	transition-delay: .5s;
+}
+.Advisors-item .caption1 a:hover
+{
+	text-decoration: underline;
+}
+.Advisors-item:hover .caption1
+{
+	top: 5%;
+}
+.Advisors-item .caption2
+{
+	background-color: white;
+	width: 90%;
+	position: absolute;
+	bottom: 5%;;
+	left: 5%;
+	transition: all .7s;
+	transition-delay: .5s;
+}
+.Advisors-item .caption2 h4
+{
+	color: #002147;
+}
+.Advisors p
+{
+	color: #888;
+}
+.Advisors-item:hover .caption2
+{
+	bottom: -50%;
+}
+/*---------------------------------*/
+.Categories
+{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+.Categories p
+{
+	color: #888;
+}
+.category-item
+{
+	position: relative;
+}
+.category-section
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+.item1
+{
+	background-color: #337ab7;
+}
+.category-item:hover .item1
+{
+	background-color: rgba(51, 122, 180, 0.58);
+}
+.item2
+{
+	background-color: #1ec1d9;
+}
+.category-item:hover .item2
+{
+	background-color:rgba(30, 193, 217, 0.51) ;
+}
+.item3
+{
+	background-color:  #10c45c;
+}
+.category-item:hover .item3
+{
+	background-color:rgba(16, 196, 92, 0.64) ;
+}
+.item4
+{
+	background-color:#47c58e ;
+}
+.category-item:hover .item4
+{
+	background-color:rgba(71, 197, 142, 0.6);
+}
+.item5
+{
+	background-color:#f9bd44; ;
+}
+.category-item:hover .item5
+{
+	background-color:rgba(249, 189, 68, 0.7) ;
+}
+.item6
+{
+	background-color: #e948ae ;
+}
+.category-item:hover .item6
+{
+	background-color: rgba(233, 72, 174, 0.55);
+}
+.item7
+{
+	background-color:#e84b3a ;
+}
+.category-item:hover .item7
+{
+	background-color:rgba(232, 75, 58, 0.62) ;
+}
+.item8
+{
+	background-color: #92278f;
+}
+.category-item:hover .item8
+{
+	background-color:rgba(146, 39, 143, 0.48);
+}
+/*----------------------------------------*/
+.Threads
+{
+	background-color:#f8f9fa;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.Threads-item1
+{
+	position: relative;
+}
+.Threads-item1 .Threads-item1-icon
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all .5s;
+}
+.Threads-item1:hover .Threads-item1-icon
+{
+	opacity: .8;
+}
+.Threads-item2 p
+{
+	color: #888;
+}
+/*--------------------------------*/
+.contact
+{
+	background-image: url(../img/map-image.png);
+	background-color: #000;
+	background-size: 100% 100%;
+}
+.contact .form-input2 textarea
+{
+	height: 205px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
