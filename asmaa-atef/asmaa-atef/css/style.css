@@ -1,0 +1,456 @@
+body
+{
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: all .5s !mportant;
+	transition: all .5s !mportant;
+}
+#home
+{
+	background-image: url(../img/cover.jpg);
+	background-size: 100% 100%;
+	height: 630px;	
+}
+.home-layer
+{
+	background-color:  rgba(236, 51, 55, 0.7);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.home-item h1
+{
+	 text-shadow: 0px 5px 10px #af2424;
+	font-weight: 700px;
+	font-size: 2.5em
+}
+.home-item .btn
+{
+	background-color: transparent;
+	border: solid 2px #fff;
+	font-size: 1.1em;
+	border-radius: 0px;
+	-webkit-transition: all .2s;
+	transition: all .2s
+}
+.home-item .btn:hover
+{
+	background-color: #fff;
+	color: #ec3237 !important;
+}
+.home-icone
+{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	animation-name: animate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease ease-in-out;
+	
+}
+@keyframes animate
+{
+	0% {left: 50%; bottom: 15px ;}
+	50% {left: 50%; bottom: 60px ;}
+	100% {left: 50%; bottom: 15px ;}
+}
+.navbar-brand img
+{
+    width: 70px;
+    max-width: 90px;
+    height: 100%;
+}
+.nav .navbar-brand
+{
+	height: 70px;
+	padding: 0px;
+}
+.nav
+{
+	    background-color: #1a1a1a;
+      -webkit-box-shadow: 0px 1px 3px rgba(42, 42, 42, 0.2);
+              box-shadow: 0px 1px 3px rgba(42, 42, 42, 0.2);
+	padding: 0px;
+}
+.current
+{
+	  border-bottom: 2px solid #ec3237;
+}
+.nav-link
+{
+	padding: 0px 15px 3px !important;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 16px;
+	font-weight: 500;
+}
+.nav-link:hover
+{
+	color: #ec3237 !important;
+}
+/*------------------------*/
+.about-title h2, .about-info h2, .skill h4, .work-title h2, .profile-title h2, .form-title h2
+{
+	font-weight: 700;
+	font-size: 2em;
+}
+.about-title p, .about-info p, .my-skill p, .work-title p, .work-item p, .profile-title p, .item-info p, .form-title p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+ .social
+{
+	 position: relative;
+    overflow-y: hidden;
+    margin: 10px 0px;
+    padding-top: 25px;
+    border-top: 1px solid #fafafa;
+}
+.social ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.social_ico li {
+    display: inline-block;
+}
+.social_ico li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 300;
+    text-align: center;
+    border: 1px solid #999999;
+    color: #777777;
+	-webkit-transition: all .2s;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.social_ico li a:hover {
+    background-color: #ec3237;
+    color: #ffffff;
+    border: 1px solid #ec3237;
+}
+/*----------------------------------*/
+.progress_item {
+    margin-top: 24px;
+}
+.progress_title {
+    display: inline-block;
+    color: #777777;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.right {
+    float: right!important;
+}
+.progress {
+    height: 12px;
+    line-height: 12px;
+}
+.progress-bar {
+    background-color: #ec3237 ;
+}
+.btn {
+    padding: 10px 25px;
+    border-radius: 0px;
+    font-size: 1em;
+    -webkit-transition: all 0.2s ;
+    transition: all 0.2s;
+}
+.btn-red {
+    background-color: #ec3237;
+    color: #ffffff;
+}
+.btn-red:hover
+{
+	background-color: #c62d32;
+    color: #ffffff;
+}
+/*--------------------------------------------*/
+.work-item
+{
+	margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    -webkit-box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+            box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+	
+}
+.work_icon {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+}
+.work-item:hover .work_icon {
+    background-color: #ec3237;
+    color: #ffffff;
+}
+.ser-title 
+{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.work-item:hover .ser-title  {
+    color: #ec3237;
+}
+/*----------------------*/
+.count
+{
+	background-image: url(../img/project-counter.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 100px 0px;
+}
+@media (max-width: 767px)
+.count-item {
+    margin-bottom: 30px !important;
+}
+.count-item {
+    padding: 15px 0px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.count-icon i
+{
+	font-size: 30px;
+	 margin-bottom: 15px;
+    color: #ec3237;
+}
+.counter {
+    font-size: 3em;
+    color: #ffffff;
+}
+.count-title {
+    font-weight: 500;
+    color: #ec3237;
+    font-size: 20px;
+}
+/*----------------------------------------------------------------------------*/
+.profile-nav ul
+{
+	background-color: transparent !important;
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
+	border: none !important;
+}
+.profile-nav ul li
+{
+	margin: 0px 3px;
+}
+.profile-nav .active {
+    color: #ffffff !important;
+    border: 2px solid #ec3237 !important;
+	background-color: #ec3237 !important;
+}
+.profile-nav li a {
+    display: block;
+    padding: 10px 20px !important;
+    color: #444444;
+    border: 2px solid #dddddd !important;
+    font-size: 1.1em;
+    font-weight: 600;
+	
+}
+.profile-nav li a:hover {
+    color: #ec3237 !important;
+    border: 2px solid #ec3237 !important;
+	
+}
+.profile-nav .active:hover {
+    color: #ffffff !important;
+    border: 2px solid #ec3237;
+	background-color:  #ec3237 !important;
+}
+.item-img
+{
+	position: relative;
+}
+.item-img img
+{
+	width: 100%;
+}
+.item-icone
+{
+	position: absolute;
+	left: 44%;
+	bottom: -10%;
+	z-index: 55;
+
+}
+.item-icone button
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: black;
+	border: none;
+	color: #fff;
+	
+}
+.item-icone i
+{
+	font-size: 16px;
+}
+.item-info {
+    padding: 0px 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    position: relative;
+    border-radius: 0px 0px 3px 3px;
+    -webkit-box-shadow: 0px 1px 4px rgba(107, 69, 69,.050);
+     box-shadow: 0px 1px 4px rgba(107, 69, 69,.050);
+	text-transform: uppercase;
+}
+.item-info p
+{
+	font-size: 16px;
+}
+.profile-item:hover .item-icone button
+{
+	background-color: #ec3237;
+}
+/*--------------------------------------*/
+#testimonil
+{
+	background-image: url(../img/client-testimonial.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 3rem 0px;
+}
+#testimonil .slide1 img
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+  border:  6px solid #ec3237
+}
+#testimonil .slide1 .item_description
+{
+	font-size: 16px;
+    font-weight: 300;
+	padding: 10px;
+}
+.client_name {
+    color: #ec3237;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#testimonil .slide1 span
+{
+	font-size: 16px;
+	margin-top: 5px;
+}
+/*-----------------------------*/
+.contact_info {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.contact_icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.contact_icon i {
+    color: #777777;
+	margin-right: 5px;
+}
+.link {
+    display: inline-block;
+    color: #BF360C;
+}
+.contact-info h4
+{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 5px;
+}
+.contact-info p
+{
+	font-size: 16px;
+	color: #777;
+}
+.form-control {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border: 2px solid #cccccc;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    color: #444444;
+    font-weight: 600;
+    font-size: 16px;
+}
+.copyright {
+    padding: 30px 0px;
+    background-color: #ffffff;
+    border-top: 1px solid #fafafa;
+}
+.copyright_text {
+    margin: 0px;
+    font-size: 1em;
+    color: #9e9e9e;
+}
+
+/*--------------------------*/
+.modal
+{
+	background-color: rgba(0,0,0,.7) !important;
+}
+.carousel
+{
+	width: 100%;
+	height: 600px;
+}
+.carousel .carousel-inner
+{
+	width: 70%;
+	height: 70%;
+}
+.carousel .carousel-inner .carousel-item
+{
+	width: 100%;
+	height: 100%:
+}
+.carousel .carousel-inner .carousel-item img
+{
+	width: 100%;
+	height: 100%;
+}
+.carousel-control-prev-icon i, .carousel-control-next-icon i
+{
+	color: dimgray !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
